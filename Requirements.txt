@@ -1,0 +1,15 @@
+-	Utilization of social media to promote and increase awareness and usage.
+		-Post records or achievements onto social media
+		-I believe an automatic tweet will be the easiest to implement
+-	Be secure. Provide all functionality without ever leaving the domain.
+		-Pretty straightforward
+-	Provide a way to search for local fitness facilities. 
+		-Use google API as seperate part of website
+-	Allow parent/guardians to get a subscription for their child/children.
+		-must be paid
+		-Parent or Child can subscribe
+-	Allow high school athletic coaches and officials to view athletes participating in their program.
+		-Organize by classes, needs way to implement joining a class (like google classroom???)
+-	Allow fitness, health and nutrition experts the ability to register their services.
+		-This should be a blog page which allows them to post q&a's, ads for their stuff, where they are located
+		-could post local services too

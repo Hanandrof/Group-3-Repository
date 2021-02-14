@@ -1,15 +1,26 @@
 -	Utilization of social media to promote and increase awareness and usage.
-		-Post records or achievements onto social media
-		-I believe an automatic tweet will be the easiest to implement
+		-Users (Students) will be able to post records or achievements onto their connected social media through a simple share button.
+		-The share functionality will be implemented to generate a relevant tweet for the user to effortlessly and quickly post.
+
 -	Be secure. Provide all functionality without ever leaving the domain.
 		-Pretty straightforward
+		-Game functionality will be contained to the site.
+		-Professional's blogs will be hosted on the site within its own section.
+		-External realiabilities like utilizing google maps or social media will be implemented into the site. Users will not be rerouted out the domain to find local fitness facilities or post to social media.
+
 -	Provide a way to search for local fitness facilities. 
-		-Use google API as seperate part of website
+		-Users will be able to input their location which we will use to find local fitness facilities utilizing google maps API within the website.
+
 -	Allow parent/guardians to get a subscription for their child/children.
-		-must be paid
-		-Parent or Child can subscribe
+		-Without paid access, the site's blog and game functionality will be blocked (or heavily restricted) 
+		-Parental accounts can pay for subscriptions for Child accounts, which are then linked to that parent account.
+
 -	Allow high school athletic coaches and officials to view athletes participating in their program.
-		-Organize by classes, needs way to implement joining a class (like google classroom???)
+		-Coaches and officials will sign up their school with the website. They will have a special Coach account which allows them to monitor students participating in programs using their school account.
+		-Coaches can create 'classes' within their school account domain to better organize students. Children signing up under their domain will be propted to chose a class. Coaches assigned to that class can then only monitor students within that class.
+		-Children can sign themselves up utilizing their school accounts, provided of course an administrator or coach at that school signs up with the website.
+
 -	Allow fitness, health and nutrition experts the ability to register their services.
+		-School Administrators will have access to a blog page where they can register experts to create content.
 		-This should be a blog page which allows them to post q&a's, ads for their stuff, where they are located
 		-could post local services too

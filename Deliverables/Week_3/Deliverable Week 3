@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T01:57:20.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4vz59l70ShJWjrbl92iC" version="14.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-17T01:59:27.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="xJ3iol52cIS_oUqsCgIT" version="14.3.2" type="github" pages="3">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="High Level Architecture">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,27 +50,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ubbAHdc4tkcvrmqz3Vjv" name="Class Organization">
-    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F1IC_nUM9kc3MDdk7V_B-0" />
         <mxCell id="F1IC_nUM9kc3MDdk7V_B-1" parent="F1IC_nUM9kc3MDdk7V_B-0" />
         <mxCell id="z04Kqsg-OxNyGPOuvLB9-1" value="Game level&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
-          <mxGeometry x="-240" y="160" width="80" height="80" as="geometry" />
+          <mxGeometry x="-280" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z04Kqsg-OxNyGPOuvLB9-2" value="Quiz level&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
-          <mxGeometry x="-320" y="260" width="80" height="80" as="geometry" />
+          <mxGeometry x="-440" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z04Kqsg-OxNyGPOuvLB9-3" value="Activity level&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
-          <mxGeometry x="-160" y="260" width="80" height="80" as="geometry" />
+        <mxCell id="z04Kqsg-OxNyGPOuvLB9-3" value="Activity Level&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+          <mxGeometry x="-120" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z04Kqsg-OxNyGPOuvLB9-5" value="Fitness game&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
-          <mxGeometry x="-240" y="40" width="80" height="80" as="geometry" />
+          <mxGeometry x="-280" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOpjydgIIQejCdV6lM2-0" value="Nutrition Facts" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+          <mxGeometry x="-520" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOpjydgIIQejCdV6lM2-1" value="Fitness Facts" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+          <mxGeometry x="-360" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOpjydgIIQejCdV6lM2-2" value="Static Exercises Level&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+          <mxGeometry x="-200" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOpjydgIIQejCdV6lM2-3" value="Movement Level" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+          <mxGeometry x="-40" y="400" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Vbc8Pb5nI3skTl0KQsYk" name="Interface Diagram">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="SyeGj93GOeXFTaVUsoha-0" />
         <mxCell id="SyeGj93GOeXFTaVUsoha-1" parent="SyeGj93GOeXFTaVUsoha-0" />

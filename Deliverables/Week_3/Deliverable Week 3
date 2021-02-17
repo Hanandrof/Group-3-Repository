@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T01:56:15.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="c7S968UqTBLr4j3JIjVS" version="14.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-17T01:57:20.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4vz59l70ShJWjrbl92iC" version="14.3.2" type="github" pages="3">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="High Level Architecture">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,11 +43,14 @@
         <mxCell id="7O4UXAHKWbRCY8ScZvEW-1" value="Accounts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="280" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1bMBmKpOJxvzyMJ-QpBA-1" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.website" vertex="1" parent="1">
+          <mxGeometry x="488.45" y="480" width="51.55" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ubbAHdc4tkcvrmqz3Vjv" name="Class Organization">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F1IC_nUM9kc3MDdk7V_B-0" />
         <mxCell id="F1IC_nUM9kc3MDdk7V_B-1" parent="F1IC_nUM9kc3MDdk7V_B-0" />

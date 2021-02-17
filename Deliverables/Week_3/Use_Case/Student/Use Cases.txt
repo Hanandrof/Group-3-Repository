@@ -3,3 +3,12 @@ Game
 Social Media
 
 Map
+- Student navigates to map section of site
+- Student inputs their location / gives permission for browser to use location
+- Webpage sends location to google maps API
+- Webpage asks for local gyms and parks (and other things maybe)
+- Google maps returns local gyms and parks
+- Webpage returns local gyms and parks locations on map
+- Student browses the locations
+
+- Exception: If student doesn't allow location, prompt for maunal entry or zip code

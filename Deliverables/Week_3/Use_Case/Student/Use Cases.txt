@@ -3,16 +3,16 @@ Game
 Social Media
 
 Map
-Trigger: Student naviagtes to map section of website
+Trigger: Student navigates to map section of the website
 Main Success Scenario:
 1. Student allows for the webpage to use their location.
-2. Webpage sends location to google maps.
-3. Webpage requests the location of gyms and parks nearby user provided location.
-5. Webpage displays map with gyms and parks locations marked.
+2. Webpage sends the location to google maps.
+3. Webpage requests the location of gyms and parks nearby user-provided location.
+5. Webpage displays a map with gym and park locations marked.
 
 Exceptions:
 1a. Student denies location use:
-  1a1. Webpage prompts for maunal entry of location or zip code.
-  1a2. Student provides location information.
+  1a1. Webpage prompts for manual entry of location or zip code.
+  1a2. The student provides location information.
 3a. No gyms and parks nearby student location:
-  3a1. Webpage informs user no locations were found.
+  3a1. Webpage informs the student no locations were found.

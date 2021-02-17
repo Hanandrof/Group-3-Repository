@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T01:46:34.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="etVFbRmFu7TzK_sRq6NO" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T01:47:20.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Pz-Z0m3Xv5rgFO5zXOZd" version="14.3.2" type="github">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7O4UXAHKWbRCY8ScZvEW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k0n7FTRlJJkwB1ddNShZ-1" target="7O4UXAHKWbRCY8ScZvEW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k0n7FTRlJJkwB1ddNShZ-1" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="160" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6GDkqP0WCKU6fvv2HG1D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="cHkk-fQyKJvE7fEGtgxI-1" target="6GDkqP0WCKU6fvv2HG1D-3">
           <mxGeometry relative="1" as="geometry" />
@@ -39,6 +42,9 @@
         </mxCell>
         <mxCell id="7O4UXAHKWbRCY8ScZvEW-1" value="Accounts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7O4UXAHKWbRCY8ScZvEW-2" value="level type" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -3,12 +3,16 @@ Game
 Social Media
 
 Map
-- Student navigates to map section of site
-- Student inputs their location / gives permission for browser to use location
-- Webpage sends location to google maps API
-- Webpage asks for local gyms and parks (and other things maybe)
-- Google maps returns local gyms and parks
-- Webpage returns local gyms and parks locations on map
-- Student browses the locations
+Trigger: Student naviagtes to map section of website
+Main Success Scenario:
+1. Student allows for the webpage to use their location.
+2. Webpage sends location to google maps.
+3. Webpage requests the location of gyms and parks nearby user provided location.
+5. Webpage displays map with gyms and parks locations marked.
 
-- Exception: If student doesn't allow location, prompt for maunal entry or zip code
+Exceptions:
+1a. Student denies location use:
+  1a1. Webpage prompts for maunal entry of location or zip code.
+  1a2. Student provides location information.
+3a. No gyms and parks nearby student location:
+  3a1. Webpage informs user no locations were found.

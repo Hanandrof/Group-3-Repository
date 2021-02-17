@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T01:39:58.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.68" etag="WEOghkWFGHtDe1UMdo50" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T01:40:13.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.68" etag="0VJyurMz260EanCauxtT" version="14.3.1" type="github">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="Page-1">
     <mxGraphModel dx="961" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="cHkk-fQyKJvE7fEGtgxI-3" value="Major Systems" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cHkk-fQyKJvE7fEGtgxI-4" value="Blog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

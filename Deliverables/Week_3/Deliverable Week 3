@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T02:27:57.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="NlIlCrrCQNVOORMnNOBm" version="14.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-17T02:36:10.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="YFMruH5WrhPzhTOCxw3O" version="14.3.2" type="github" pages="3">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="High Level Architecture">
     <mxGraphModel dx="4287" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="P9KnaQOuDJCT8FZJ41s7-3" value="Private Stats&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;font size=&quot;1&quot;&gt;Includes tracking what level the user is on&lt;/font&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
           <mxGeometry x="-570" y="400" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P9KnaQOuDJCT8FZJ41s7-4" value="Public Stats&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
+        <mxCell id="P9KnaQOuDJCT8FZJ41s7-4" value="Public Stats&amp;nbsp;&lt;br style=&quot;font-size: 8px&quot;&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;" vertex="1" parent="F1IC_nUM9kc3MDdk7V_B-1">
           <mxGeometry x="-710" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iLjrs6Gs95XltI93qYIk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="F1IC_nUM9kc3MDdk7V_B-1" source="iLjrs6Gs95XltI93qYIk-7" target="iLjrs6Gs95XltI93qYIk-8">
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vbc8Pb5nI3skTl0KQsYk" name="Interface Diagram">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="SyeGj93GOeXFTaVUsoha-0" />
         <mxCell id="SyeGj93GOeXFTaVUsoha-1" parent="SyeGj93GOeXFTaVUsoha-0" />

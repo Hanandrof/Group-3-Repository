@@ -37,5 +37,5 @@ Exceptions:
 1a. Student denies location use:
   1a1. Webpage prompts for manual entry of location or zip code.
   1a2. The student provides location information.
-3a. No gyms and parks nearby student location:
-  3a1. Webpage informs the student no locations were found.
+2a. No gyms and parks nearby student location:
+  2a1. Webpage informs the student no locations were found.

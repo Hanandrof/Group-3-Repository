@@ -1,0 +1,15 @@
+Class Organization
+Trigger: Schools landing page should be class list for school
+Main Success Scenario: 
+1. School registers the school system with the website
+2. Website holds the schools data in database
+Exception:
+ 1a. School isn't in the website's database
+  1a1. Website prompts school to register the school for the website
+
+Social Aspects
+Trigger: School opens blog page
+Main Success Scenario:
+1. School opens blog page
+2. Website gathers data from all classes school is registered with
+3. Website displays data in chronological order

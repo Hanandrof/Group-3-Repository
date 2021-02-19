@@ -1,6 +1,29 @@
 Game
+Trigger: Student logs in and brings them to game section of website (Should be the landing page for students)
+Main Success Scenario:
+1. Webpage grabs user data from database
+2. Webpage loads the progress of the user correctly
+3. Webpage displays the game
+
+Exceptions
+1a. Student has cookies on,
+  1a1. Webpage uses cookies cache rather than database to load user data
 
 Social Media
+Trigger: Student beats a level of the game or logs onto blog portion of website
+Main Success Scenario:
+1. Student beats level and website prompts them to post on social media
+2. Webpage posts generic social media post
+--or--
+1. Student accesses blog portion of website
+2. Website grabs blog data that the user has access too
+3. Website displays said data
+
+Exceptions
+1a. Student doesn't have social media linked to their account
+  1a1. Website prompts student to link social media accounts
+2a. Student doesn't have any classes so there is no blog posts
+  2a1. prompts student to join a class
 
 Map
 Trigger: Student navigates to map section of the website

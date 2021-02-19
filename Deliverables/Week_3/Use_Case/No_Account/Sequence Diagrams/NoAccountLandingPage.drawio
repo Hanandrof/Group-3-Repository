@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T23:27:57.427Z" agent="5.0 (X11; CrOS aarch64 13597.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36" etag="U0HTSP58EMF8Dh5u1ge_" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T23:34:41.689Z" agent="5.0 (X11; CrOS aarch64 13597.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36" etag="H9mnHszHnLSd585NAKly" version="14.4.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="228" dy="145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,17 +26,39 @@
             <mxPoint x="275" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fScQF8nLEnVFVMwU-Z7-1" value="Server asks browser &lt;br&gt;for cached user info" style="endArrow=classic;html=1;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="-0.11" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="1fScQF8nLEnVFVMwU-Z7-1" value="Server asks browser &lt;br&gt;for a sign in" style="endArrow=classic;html=1;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="0.0012" y="-20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="230" as="sourcePoint" />
             <mxPoint x="280" y="180" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fScQF8nLEnVFVMwU-Z7-3" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="1fScQF8nLEnVFVMwU-Z7-3" value="" style="endArrow=classic;html=1;shadow=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="220" as="sourcePoint" />
             <mxPoint x="280" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1fScQF8nLEnVFVMwU-Z7-6" value="The Browser will &lt;br&gt;reply with no sign-in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1fScQF8nLEnVFVMwU-Z7-3">
+          <mxGeometry x="-0.3096" y="1" relative="1" as="geometry">
+            <mxPoint x="27.83" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1fScQF8nLEnVFVMwU-Z7-7" value="" style="endArrow=classic;html=1;shadow=1;exitX=-0.06;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.774;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1fScQF8nLEnVFVMwU-Z7-8" value="Server redirects&lt;br&gt;no-account user&lt;br&gt;to landing page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1fScQF8nLEnVFVMwU-Z7-7">
+          <mxGeometry x="-0.3656" y="-3" relative="1" as="geometry">
+            <mxPoint x="-29.44" y="-24.15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

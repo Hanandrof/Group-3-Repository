@@ -1,0 +1,27 @@
+Game
+Trigger: parent navigates to game section of the website
+Main Success Sceneario:
+1. Parent has link between them and student account
+2. Website gathers progress of student account
+3. Website displays progress of student account
+
+Exceptions:
+1a. Parent is not registered with student
+  1a1. Website prompts parent to link their account with Student account
+2a. Parent has multiple children registered
+  2a1. Parent is prompted to choose child that they would like to see progress of
+
+Map
+Trigger: Parent navigates to map section of the website
+Main Success Scenario:
+1. Parent allows for the webpage to use their location.
+2. Webpage sends the location to google maps.
+3. Webpage requests the location of gyms and parks nearby user-provided location.
+5. Webpage displays a map with gym and park locations marked.
+
+Exceptions:
+1a. Parent denies location use:
+  1a1. Webpage prompts for manual entry of location or zip code.
+  1a2. The parent provides location information.
+3a. No gyms and parks nearby parent location:
+  3a1. Webpage informs the parent no locations were found.

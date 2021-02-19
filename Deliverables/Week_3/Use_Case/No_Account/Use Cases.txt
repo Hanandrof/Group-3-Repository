@@ -1,0 +1,17 @@
+Landing Page
+Trigger: Logging into site with no user id
+Main Success Scenario:
+1. Not logged in - sends user to a landing page
+2. Advertises website to non user
+Exception:
+1a. User has an account
+  1a1. User can hit sign in button
+2a. User wants to sign up
+  2a1. User can sign up by hitting sign up button
+  
+Demo
+Trigger: Clicking demo
+Main Success Scenario:
+1. Non-user clicks "explore demo button"
+2. User plays a single level for game demo
+3. Once level is complete, prompts them to sign up

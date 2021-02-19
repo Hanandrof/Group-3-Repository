@@ -31,7 +31,7 @@ Main Success Scenario:
 1. Student allows for the webpage to use their location.
 2. Webpage sends the location to google maps.
 3. Webpage requests the location of gyms and parks nearby user-provided location.
-5. Webpage displays a map with gym and park locations marked.
+4. Webpage displays a map with gym and park locations marked.
 
 Exceptions:
 1a. Student denies location use:

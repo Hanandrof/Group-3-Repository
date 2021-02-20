@@ -21,6 +21,7 @@ Exceptions
   6a4. Website confirms their credentials and allows them to access those school's blogs
 
 
+
 Social Aspects
 Trigger: Expert navigates to the blog section of the site
 Main Success Scenario:

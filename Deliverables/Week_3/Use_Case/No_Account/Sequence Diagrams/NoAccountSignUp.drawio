@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T00:37:52.298Z" agent="5.0 (X11; CrOS aarch64 13597.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36" etag="aTQDlerxF5FN4ng2iMSD" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T00:42:46.749Z" agent="5.0 (X11; CrOS aarch64 13597.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36" etag="AdZk1kOcAQ18blYaZalt" version="14.4.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="469" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,6 +109,36 @@
             <Array as="points">
               <mxPoint x="490" y="290" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NSWMfCB8tCSqsu4tZkX-16" value="Payment Service verifies&lt;br&gt;that the user has been paid for" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-NSWMfCB8tCSqsu4tZkX-15">
+          <mxGeometry x="-0.1301" y="1" relative="1" as="geometry">
+            <mxPoint x="67.07" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NSWMfCB8tCSqsu4tZkX-17" value="" style="endArrow=classic;html=1;exitX=0.058;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="270" as="sourcePoint" />
+            <mxPoint x="370" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NSWMfCB8tCSqsu4tZkX-18" value="The new user is redirected to their&lt;br&gt;new homescreen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-NSWMfCB8tCSqsu4tZkX-17">
+          <mxGeometry x="0.2103" relative="1" as="geometry">
+            <mxPoint x="20.86" y="30.96" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NSWMfCB8tCSqsu4tZkX-20" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="-NSWMfCB8tCSqsu4tZkX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NSWMfCB8tCSqsu4tZkX-21" value="The server sets up the new&lt;br&gt;account in the database" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-NSWMfCB8tCSqsu4tZkX-20">
+          <mxGeometry x="-0.0918" relative="1" as="geometry">
+            <mxPoint x="7.43" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

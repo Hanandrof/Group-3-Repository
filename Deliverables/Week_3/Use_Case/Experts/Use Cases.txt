@@ -7,7 +7,7 @@ Main Success Scenario:
 4. Website prompts expert with registered school organizations
 5. Expert selects school admins with whom they have permission to post in their blog
 6. Website checks within the database if the expert indeed has permission.
-7. Website confirms account creation with expert and allows them access to the blogs.
+7. Website confirms account creation and allows them access to the blogs.
 
 Exceptions
 3a. Expert decides to use an integrated payment method (such as PayPal) 

@@ -1,0 +1,73 @@
+Game <access student course progress>
+Trigger: Admin navigates to Administration only database section of website
+Main Success Scenario:
+1. Website provides admin a list of schools from database
+2. Admin can select to add/remove schools from the system
+--or--
+2. Admin selects a school system to manage
+3. Website provides a list of classes within that school database
+4. Admin can select to add/remove classes from the system
+--or--
+4. Admin selects a class to manage
+5. Website provides a list of students within that classes database
+6. Admind can manage student data, or add/remove them from classes
+
+
+
+Social Aspects <approve, monitor, and restrict content>
+Trigger: Admin recives a content report
+Main Success Scenario:
+1. Admin requests to view reported content
+2. Website locates the reported content from database and displays
+3. Admin requests that the content be removed
+4. Website deletes the content page
+5. Website notifies content reporter of the action taken
+--or--
+3. Admin requests that the content be restricted
+4. Website prompts the admin for restriction terms
+5. Admin provides the terms of the restirction (who can view, time limit)
+6. Website applies the requested restrictions to the content
+7. Website notifies content reporter of the action taken
+--or--
+3. Admin requests that the content be allowed
+5. Website notifies content reporter of the action taken
+
+
+
+User Maintenance <manage and remove accounts>
+Trigger: Admin recieves a request to access an account
+Success Scenario 1:
+1. Admin receives notice an account owner needs assistance with their account
+2. Admin requests to view the user's account details
+3. Website locates and displays the account details from the database
+4. Admin makes the requested changes
+Success Scenario 2:
+1. Admin receives notice an account is breaking site policies
+2. Admin requests to view the suspected account's details and recent activity
+3. Website locates and displays account details as well as a log of activity from the database
+4. Admin requests the account's removal
+5. Website removes the account's access and notifies them as well as the reporter
+
+Exceptions
+2:4a. Admin decides account is not breaking policies
+  2:4a1. Website notifies the reporter of the review
+
+
+
+Class Organization <monitor/remove schools>
+Trigger: Admin navigates to Administrator only database section of website
+Main Success Scenario:
+1. Admin selects to see registered schools in database
+2. Website locates and displays all schools registered
+3. Admin can monitor select schools or choose to remove a school's registry with the site
+
+
+
+Local Map <monitor/change advertised buisnesses>
+Trigger: Admin navigates to the map section of the website
+Main Success Scenario:
+1. Webpage displays a listing of locations of schools and buisnessess within the database
+2. Admin requests to view a locations details
+3. Webpage searches that location's address and sends to google maps
+4. Webpage displays on map the requested location
+5. Admin can monitor, remove, or change the advertising status of the location

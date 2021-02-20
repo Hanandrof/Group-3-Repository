@@ -1,3 +1,21 @@
+User Maintenance 
+Trigger: Student requests to make an account
+Main Success Scenario:
+1. Student requests to create a new account, selecting the Student account type
+2. Website prompts student with registered school organizations
+3. Student selects school they are enrolled in signs in through their student account portal
+4. Website displays pricing plan for students, prompts for payment details
+5. Student provides their payment details and purchases an account
+6. Website confirms account creation and allows them access to the game and blog
+
+Exceptions
+3a. Student is not enrolled in any registered school:
+  3a1. Website cancels account creation and informs student their school must be reigstered
+5a. Student decides to use an integrated payment method (such as PayPal):
+  5a1. Website utilizes that payment method's API to facilitate the transaction
+
+
+
 Game
 Trigger: Student logs in and brings them to game section of website (Should be the landing page for students)
 Main Success Scenario:
@@ -8,6 +26,8 @@ Main Success Scenario:
 Exceptions
 1a. Student has cookies on:
   1a1. Webpage uses cookies cache rather than database to load user data
+
+
 
 Social Media
 Trigger: Student beats a level of the game or logs onto blog portion of website
@@ -24,6 +44,8 @@ Exceptions
   1a1. Website prompts student to link social media accounts
 2a. Student doesn't have any classes so there is no blog posts:
   2a1. prompts student to join a class
+
+
 
 Map
 Trigger: Student navigates to map section of the website

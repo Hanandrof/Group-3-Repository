@@ -31,6 +31,6 @@ Main Success Scenario:
 4. Website displays student progress and class tools
 5. Coach selects to create, edit, or grade assignments
 
-Exceptions:
+Exceptions
 5a. Coach attempts to edit an assignment past its due date:
   5a1. Webpage informs that the assignment is complete and is unavaiable for editing

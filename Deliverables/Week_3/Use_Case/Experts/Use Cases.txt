@@ -11,7 +11,7 @@ Main Success Scenario:
 
 Exceptions
 3a. Expert decides to use an integrated payment method (such as PayPal) 
-  1a1. Website utilizes that payment method's API to facilitate the transaction
+  3a1. Website utilizes that payment method's API to facilitate the transaction
 6a. Expert has not recieved permission from any schools
   6a1. Website confirms account creation, however expert has no blog access
   --or--

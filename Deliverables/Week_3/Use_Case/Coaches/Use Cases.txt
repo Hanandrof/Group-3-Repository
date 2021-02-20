@@ -1,0 +1,36 @@
+User Maintenance 
+Trigger: Coach requests to make an account
+Main Success Scenario:
+1. Coach requests to create a new account, selecting the Coach account type
+2. Website prompts the coach with registered school organizations
+3. Coach selects school they are enrolled in signs in through their school account portal
+6. Website confirms account creation and allows them access to the game and blog
+
+Exceptions
+3a. Coach is not working in any registered school:
+  3a1. Website cancels account creation and informs coach their school must be reigstered
+
+
+
+Game (Student Progress Monitoring)
+Trigger: Coach selects to manage a class in the game section of the website
+Main Success Scenario:
+1. Website gathers user data from each student in the class
+2. Website displays students and their progress for the coach to monitor
+3. Coach selects student for closer inspection
+4. Website displays detailed course progress for that student, as well as tools to mark or edit progress
+
+
+
+Class Organization
+Trigger: Coach navigates to the game section of the website
+Main Success Scenario:
+1. Website gathers class data from database and displays the coach's classes
+2. Coach selects a class to manage
+3. Website gathers user data from each student in the class from database
+4. Website displays student progress and class tools
+5. Coach selects to create, edit, or grade assignments
+
+Exceptions:
+5a. Coach attempts to edit an assignment past its due date:
+  5a1. Webpage informs that the assignment is complete and is unavaiable for editing

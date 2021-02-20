@@ -1,0 +1,53 @@
+User Maintenance 
+Trigger: Expert requests to make an account
+Main Success Scenario:
+1. Expert requests to create a new account, selecting the Expert account type
+2. Website displays pricing plan for experts, prompts expert for payment details
+3. Expert provides their payment details and purchases an account
+4. Website prompts expert with registered school organizations
+5. Expert selects school admins with whom they have permission to post in their blog
+6. Website checks within the database if the expert indeed has permission.
+7. Website confirms account creation with expert and allows them access to the blogs.
+
+Exceptions
+3a. Expert decides to use an integrated payment method (such as PayPal) 
+  1a1. Website utilizes that payment method's API to facilitate the transaction
+6a. Expert has not recieved permission from any schools
+  6a1. Website confirms account creation, however expert has no blog access
+  --or--
+  6a1. Expert reaches out to the school admins they wish to work with
+  6a2. Those school admins add the expert's credentials to their whitelist in the database
+  6a3. Expert reselects the schools they have contacted
+  6a4. Website confirms their credentials and allows them to access those school's blogs
+
+
+Social Aspects
+Trigger: Expert navigates to the blog section of the site
+Main Success Scenario:
+1. Website prompts them with a list of school's blogs they can access
+2. Expert selects a school blog
+3. Website displays blog pages and FAQs the expert has created, as well as blog creation tools
+
+Exceptions
+1a. Expert has no blog access
+  1a1. Website prompts expert to gain contact schools to gain access to their blogs
+  1a2. Website displays registered schools
+
+
+
+Map
+Trigger: Expert navigates to map section of 
+Main Success Scenario:
+1. Expert allows for the website to use their location.
+2. Website sends the location to google maps.
+3. Website prompts the expert to select local businesses they are affiliated with
+4. Expert selects businesses
+5. Website prompts expert with advertisement plans and pricings
+6. Expert selects their desired plan and provides payment details
+7. Website confirms payment and adds the expert's advertising plan to the database
+8. The map database is primed to advertise that location to specifications
+
+Exceptions:
+1a. Expert denies location use:
+  1a1. Webpage prompts for manual entry of location or zip code
+  1a2. Expert provides location information

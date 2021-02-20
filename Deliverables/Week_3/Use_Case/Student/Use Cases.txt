@@ -6,7 +6,7 @@ Main Success Scenario:
 3. Webpage displays the game
 
 Exceptions
-1a. Student has cookies on,
+1a. Student has cookies on:
   1a1. Webpage uses cookies cache rather than database to load user data
 
 Social Media
@@ -20,22 +20,22 @@ Main Success Scenario:
 3. Website displays said data
 
 Exceptions
-1a. Student doesn't have social media linked to their account
+1a. Student doesn't have social media linked to their account:
   1a1. Website prompts student to link social media accounts
-2a. Student doesn't have any classes so there is no blog posts
+2a. Student doesn't have any classes so there is no blog posts:
   2a1. prompts student to join a class
 
 Map
 Trigger: Student navigates to map section of the website
 Main Success Scenario:
-1. Student allows for the webpage to use their location.
-2. Webpage sends the location to google maps.
-3. Webpage requests the location of gyms and parks nearby user-provided location.
-4. Webpage displays a map with gym and park locations marked.
+1. Student allows for the webpage to use their location
+2. Webpage sends the location to google maps
+3. Webpage requests the location of gyms and parks nearby user-provided location
+4. Webpage displays a map with gym and park locations marked
 
 Exceptions:
 1a. Student denies location use:
-  1a1. Webpage prompts for manual entry of location or zip code.
-  1a2. The student provides location information.
+  1a1. Webpage prompts for manual entry of location or zip code
+  1a2. The student provides location information
 2a. No gyms and parks nearby student location:
-  2a1. Webpage informs the student no locations were found.
+  2a1. Webpage informs the student no locations were found

@@ -2,7 +2,7 @@ User Maintenance
 Trigger: Expert requests to make an account
 Main Success Scenario:
 1. Expert requests to create a new account, selecting the Expert account type
-2. Website displays pricing plan for experts, prompts expert for payment details
+2. Website displays pricing plan for experts, prompts for payment details
 3. Expert provides their payment details and purchases an account
 4. Website prompts expert with registered school organizations
 5. Expert selects school admins with whom they have permission to post in their blog

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T03:21:11.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="AFD0ZnFqky4YX_24Lgqd" version="14.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-02-22T03:25:01.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="jlmBwefnb5CZG5EoL8km" version="14.4.2" type="github" pages="4">
   <diagram id="VuUxPqlgicHLSLOksWqZ" name="High Level Architecture">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="cHkk-fQyKJvE7fEGtgxI-2" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cHkk-fQyKJvE7fEGtgxI-3" value="Major Systems" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="325" y="100" width="90" height="20" as="geometry" />
+        <mxCell id="cHkk-fQyKJvE7fEGtgxI-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Major Systems&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="285" y="220" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cHkk-fQyKJvE7fEGtgxI-4" value="Blog" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="280" width="80" height="80" as="geometry" />

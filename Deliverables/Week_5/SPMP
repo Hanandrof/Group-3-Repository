@@ -10,13 +10,46 @@ Tables of contents, figures, tables
 Introduction
 -------------------------------------------------------------------
 1.1 Project Overview
-Executive summary: description of project, product summary
+This project is a web-based educational environment on the topics of fitness and wellness, 
+as solicited by the United States Department of Education. While it is purchased on a 
+school-wide basis, the platform's main demographic 
+will mainly be young athletes and their parents, who for it has been determined that they 
+are lacking in knowledge on the practice of proper nutrition and fitness routines to
+support their own physical education training.
+
 1.2 Project Deliverables
-All items to be delivered, including delivery dates and location 
+- Use Cases for each participant in the system, including:
+  + The System Administrator
+  + Physical Education Coaches
+  + Experts on The Platform
+  + People Without an Account
+  + Parents of The Athlete Participants on The Platform
+  + The Student Athlete Participants
+  + The School Administration Group
+* Deadline: 2/14 | Status: Complete *
+
+- Requirements for the Design of the System
+* Deadline: 2/14 | Status: Complete *
+
+- Documents on the Design of the System
+* Deadline: 2/21 | Status: Complete *
+
+- Software Project Management Proposal, GANTT Chart Schedule, 
+  Work Breakdown Structure, Organization Structure
+* Deadline: 3/2 | Status: In Progress *
+
+... TODO: Other Things that rely on the schedule and structure
+
+- Implemented System
+* Deadline: 3/31 | Status: In Progress *
+
 1.3 Evolution of the SPMP
-Plans for anticipated and unanticipated change
+
 1.4 Reference Materials
-Complete list of materials referenced in SPMP	
+"Work Breakdown Structure.png"
+"Gnatt.png"
+"Organizational Structure.png"
+
 1.5 Definitions and Acronyms
 
 Project Organization
@@ -25,8 +58,19 @@ Project Organization
 Relationships among project elements
 2.2 Organizational Structure
 Internal management, organization chart
+
 2.3 Organizational Interfaces
-Relations with other entities (subcontractors, commercial software) 
+TODO: Add Things
+- Relationship to Hosting Service
+Our project is not of a controversial nature, so as long as we keep paying
+them to host a site, they will probably do it.
+- Relationship to Schools
+Access to this system is purchased annually on a school-wide basis.
+- Relationship to Upstream Frameworks
+What licenses do they use?
+- Relationship to US Dep't. of Education
+Mostly fictitious.
+
 2.4 Project Responsibilities
 Major functions and activities; nature of each; who’s in charge
 Matrix of project functions/activities vs responsible individuals
@@ -60,6 +104,9 @@ Technical Process
 ------------------------------------------------------------------------------------------------------
 2.1 Methods, Tools and Techniques
 Specify the  methods, tools and techniques to be used on the project
+- Git
+- Agile
+TODO: Other things
 2.2 Software Documentation
 Describe the documentation plan
 2.3 Project Support Functions

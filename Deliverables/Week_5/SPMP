@@ -1,0 +1,77 @@
+Software Project Management Plan Template
+
+Front Matter
+-------------------------------------------------------------------
+Title Page
+Revision sheet (update history)
+Preface: Scope and purpose
+Tables of contents, figures, tables
+
+Introduction
+-------------------------------------------------------------------
+1.1 Project Overview
+Executive summary: description of project, product summary
+1.2 Project Deliverables
+All items to be delivered, including delivery dates and location 
+1.3 Evolution of the SPMP
+Plans for anticipated and unanticipated change
+1.4 Reference Materials
+Complete list of materials referenced in SPMP	
+1.5 Definitions and Acronyms
+
+Project Organization
+----------------------------------------------------------------------
+2.1 Process Model
+Relationships among project elements
+2.2 Organizational Structure
+Internal management, organization chart
+2.3 Organizational Interfaces
+Relations with other entities (subcontractors, commercial software) 
+2.4 Project Responsibilities
+Major functions and activities; nature of each; who’s in charge
+Matrix of project functions/activities vs responsible individuals
+
+
+Managerial Process
+---------------------------------------------------------------------------------------------------------------------
+3.1 Management Objectives and Priorities
+Describes management philosophy, priorities among requirements, schedule and budget
+3.2 Assumptions, Dependencies and Constraints
+External events the project depends on, constraints under which the project is to be conducted
+3.3 Risk Management (Example on next slide)
+Identification and assessment of risk factors, mechanism for tracking risks, implementation of contingency plans
+3.5 Monitoring and Controlling Mechanisms
+Frequency and mechanisms for reporting
+3.4 Staffing Plan
+Numbers and types of personnel required to conduct the project
+
+Contractual risks
+What do you do if client  becomes bankrupt?
+Size of the project
+What do you do if you feel project is too large?
+Complexity of the project
+What do you do if the requirements are multiplying during analysis? (requirements creep)
+Staff
+How do you hire people? Is there a danger of  people leaving the project?
+Client  acceptance
+What do you do if client  does not like developed prototype?
+
+Technical Process
+------------------------------------------------------------------------------------------------------
+2.1 Methods, Tools and Techniques
+Specify the  methods, tools and techniques to be used on the project
+2.2 Software Documentation
+Describe the documentation plan
+2.3 Project Support Functions
+Plans for (at least) the following project support functions. 
+Plan to ensure quality assurance
+Configuration management plan (IEEE Std 1042)
+Verification and validation  plan 
+The plans can be included in this section or there is a reference to a separate document
+
+Description of Work Packages
+------------------------------------------------------------------
+Work Breakdown Structure (WBS)
+Hierarchical decomposition of project into activities and  tasks
+
+Dependencies between tasks

@@ -83,37 +83,48 @@ Matrix of project functions/activities vs responsible individuals
 Managerial Process
 ---------------------------------------------------------------------------------------------------------------------
 3.1 Management Objectives and Priorities
-Describes management philosophy, priorities among requirements, schedule and budget
-3.2 Assumptions, Dependencies and Constraints
-External events the project depends on, constraints under which the project is to be conducted
-3.3 Risk Management (Example on next slide)
-Identification and assessment of risk factors, mechanism for tracking risks, implementation of contingency plans
-3.5 Monitoring and Controlling Mechanisms
-Frequency and mechanisms for reporting
-3.4 Staffing Plan
-Numbers and types of personnel required to conduct the project
+-Management philosophy
+team discussion needed
+-Priorities among requirements
+Prioritize first the website's function, then its form.
+To display website function, the creation of a working lesson prototype should be prioritized.
+-Schedule
+team discussion needed
+-Budget
+Opperating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
 
-Contractual risks
-What do you do if client  becomes bankrupt?
+3.2 Assumptions, Dependencies and Constraints
+-External events the project depends on
+can't think on any
+-Constraints under which the project is to be conducted
+Biggest contraint is time
+
+3.3 Risk Management
+Identification and assessment of risk factors, mechanism for tracking risks, implementation of contingency plans
+
 Size of the project
 What do you do if you feel project is too large?
+
 Complexity of the project
 What do you do if the requirements are multiplying during analysis? (requirements creep)
-Staff
-How do you hire people? Is there a danger of  people leaving the project?
-Client  acceptance
-What do you do if client  does not like developed prototype?
+
+Client acceptance
+What do you do if client does not like developed prototype?
+
+3.5 Monitoring and Controlling Mechanisms
+Frequency and mechanisms for reporting
+
 
 Technical Process
 ------------------------------------------------------------------------------------------------------
-2.1 Methods, Tools and Techniques
+4.1 Methods, Tools and Techniques
 Specify the  methods, tools and techniques to be used on the project
 - Git
 - Agile
 TODO: Other things
-2.2 Software Documentation
+4.2 Software Documentation
 Describe the documentation plan
-2.3 Project Support Functions
+4.3 Project Support Functions
 Plans for (at least) the following project support functions. 
 Plan to ensure quality assurance
 Configuration management plan (IEEE Std 1042)
@@ -122,7 +133,7 @@ The plans can be included in this section or there is a reference to a separate 
 
 Description of Work Packages
 ------------------------------------------------------------------
-Work Breakdown Structure (WBS)
-Hierarchical decomposition of project into activities and  tasks
+Include Work Breakdown Structure (WBS) here
+Hierarchical decomposition of project into activities and tasks
 
 Dependencies between tasks

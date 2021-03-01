@@ -50,8 +50,6 @@ support their own physical education training.
 "Gnatt.png"
 "Organizational Structure.png"
 
-1.5 Definitions and Acronyms
-
 Project Organization
 ----------------------------------------------------------------------
 2.1 Process Model
@@ -60,7 +58,6 @@ Relationships among project elements
 Internal management, organization chart
 
 2.3 Organizational Interfaces
-TODO: Add Things
 - Relationship to Hosting Service
 Our project is not of a controversial nature, so as long as we keep paying
 them to host a site, they will probably do it.
@@ -72,10 +69,12 @@ What licenses do they use?
 Mostly fictitious.
 
 2.4 Project Responsibilities
-Major functions and activities; nature of each; who’s in charge
 Provide an educational service on health and fitness
+(nature)
 Strive to spread awareness through social media
+(nature)
 Support industry experts and local facilities
+(nature)
 
 Matrix of project functions/activities vs responsible individuals
 
@@ -121,9 +120,10 @@ Technical Process
 Specify the  methods, tools and techniques to be used on the project
 - Git
 - Agile
+
 TODO: Other things
 4.2 Software Documentation
-Describe the documentation plan
+Documentation will be contained within site code and within the repository 
 4.3 Project Support Functions
 Plans for (at least) the following project support functions. 
 Plan to ensure quality assurance

@@ -39,7 +39,7 @@ support their own physical education training.
 * Deadline: 3/2 | Status: In Progress *
 
 - HTML Pages
-* ETA: 3/6 | Status: Not Started *
+* ETA: 3/6 | Status: In Progress *
 
 - CSS Pages
 * ETA: 3/11 | Status: Not Started *
@@ -51,9 +51,11 @@ support their own physical education training.
 * ETA: 3/31 | Status: Not Started *
 
 - Implemented System Completed Website
-* Deadline: 4/9 | Status: In Progress *
+* Deadline: 4/24 | Status: In Progress *
 
 1.3 Evolution of the SPMP
+As the Gantt timeline continues to change, so will the timeline
+section change as well. Here it has been decreed.
 
 1.4 Reference Materials
 "Work Breakdown Structure.png"
@@ -72,9 +74,12 @@ Internal management, organization chart
 Our project is not of a controversial nature, so as long as we keep paying
 them to host a site, they will probably do it.
 - Relationship to Schools
-Access to this system is purchased annually on a school-wide basis.
+Access to this system is purchased annually on a school-wide basis. They are
+the customers, even though they are not necessarily the consumers.
 - Relationship to Upstream Frameworks
-What licenses do they use?
+What licenses do they use? Generally, most upstream frameworks use open-source
+licenses, so as long as we're not using Adobe Flash in 2021, we should
+be fine.
 - Relationship to US Dep't. of Education
 Mostly fictitious.
 
@@ -85,6 +90,9 @@ Strive to spread awareness through social media
 (nature)
 Support industry experts and local facilities
 (nature)
+To Design The Website Accessibly For All Users
+
+To Handle User Data Securely and Covertly
 
 Matrix of project functions/activities vs responsible individuals
 
@@ -100,11 +108,14 @@ To display website function, the creation of a working lesson prototype should b
 -Schedule
 team discussion needed
 -Budget
-Opperating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
+Operating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
 
 3.2 Assumptions, Dependencies and Constraints
 -External events the project depends on
 can't think on any
+We are able to get a hosting service (should be easy as one would expect).
+We are able to implement the system
+The continuation of the universe, planet, and the concept of existence.
 -Constraints under which the project is to be conducted
 Biggest contraint is time
 

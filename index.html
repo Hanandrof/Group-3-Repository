@@ -5,20 +5,20 @@
       <link rel="stylesheet" href="./docs/uikit-3.6.17/css/uikit.min.css" />
       <script src="./docs/uikit-3.6.17/js/uikit.min.js"></script>
       <script src="./docs/uikit-3.6.17/js/uikit-icons.min.js"></script>
-      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="/style.css">
     </head>
 
   <body>
     <header>
-      <nav class="uk-navbar-container blue" uk-navbar>
+      <nav class="uk-navbar-container blue" uk-sticky uk-navbar>
         <div class="uk-navbar-left">
-          <logo class ="uk-logo">
+          <logo class ="uk-logo uk-margin-small-left">
             <a href="index.html"><img src="./docs/img/logo/fit50Condensed.png" width="128px" height="47px"></img></a>
           </logo>
         </div>
         <div class="uk-navbar-right">
           <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="./docs/temp.html">Login & Registration</a></li>
+            <li class="uk-active"><a class="login" href="./docs/pages/login/loginPage.html">Login & Registration</a></li>
             <li>
               <a href="#">Site Sections</a>
               <div class="uk-navbar-dropdown">
@@ -36,14 +36,38 @@
     </header>
 
     <main>
-      <div class="uk-grid-small uk-grid-match" uk-grid>
-        <div class="uk-width-1-2 uk-height-max-medium">
-          <img src="docs/img/kid-field.jpg">
-        </div>
-        <div>
-          <h1>YO</h1>
+      <div class="uk-cover-container">
+        <canvas width="6144" height="2500"></canvas>
+        <img src="docs/img/kid-field.jpg" alt="" uk-cover>
+        <div class="uk-overlay uk-position-bottom uk-overlay-primary">
+          <h1>Welcome to Fit 50</h1>
         </div>
       </div>
+
+      <div class=" uk-grid-large uk-height-max-large uk-text-center@m" uk-height-match uk-grid>
+        <div class="uk-width-1-2 uk-card uk-card-default uk-card-body">
+          <h1 class="uk-card-title">Fit 50 is a new Online Learning Tool</h1>
+          <p>This new learning platform is meant to help your child get the physical education that they need! </p>
+        </div>
+        <div class="uk-width-1-2 uk-card uk-card-secondary uk-card-body">
+          <h1>and so is this...</h1>
+        </div>
+      </div>
+
+      <div class="uk-section uk-section-default">
+        <div class="uk-container">
+          <h2>Physical Education at Home</h2>
+          <div uk-grid>
+            <div class="uk-width-1-3">
+              <span>Welcome to the new socially distant P.E. course<br>accessible right from your PC</span>
+            </div><div class="uk-width-1-3"></div>
+            <div class="uk-width-1-3">
+              <img src="https://www.pngitem.com/pimgs/m/461-4618525_ig-small-instagram-logo-2019-hd-png-download.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-divider-icon"></div>
     </main>
   </body>
 </html>

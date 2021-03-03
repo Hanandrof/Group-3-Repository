@@ -1,3 +1,4 @@
 .blue {
-    background: linear-gradient(to left, #28a5f5, #1e87f0);
+    background: linear-gradient(to right, #28a5f5, #ffffff) !important;
+
 }

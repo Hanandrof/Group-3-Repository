@@ -1,4 +1,4 @@
-Software Project Management Plan Template
+Software Project Management Plan
 
 Front Matter
 -------------------------------------------------------------------
@@ -36,19 +36,16 @@ support their own physical education training.
 
 - Software Project Management Proposal, GANTT Chart Schedule, 
   Work Breakdown Structure, Organization Structure
-* Deadline: 3/2 | Status: In Progress *
+* Deadline: 3/2 | Status: Complete *
 
-- HTML Pages
-* ETA: 3/6 | Status: In Progress *
-
-- CSS Pages
-* ETA: 3/11 | Status: Not Started *
+- HTML/CSS Pages
+* ETA: 4/4 | Status: In Progress *
 
 - Database/JS Working
-* ETA: 3/21 | Status: Not Started *
+* ETA: 4/16 | Status: Starting *
 
 - APIs Installed and Functioning
-* ETA: 3/31 | Status: Not Started *
+* ETA: 4/20 | Status: Not Started *
 
 - Implemented System Completed Website
 * Deadline: 4/24 | Status: In Progress *
@@ -143,14 +140,9 @@ Specify the  methods, tools and techniques to be used on the project
 - Agile
 - HTML/CSS/Javascript
 - monday.com --- to manage tasks inside the group
-- UIKit
-- Jekyll
-- (A backend framework, possibly jquery)
-- (A backend hosting service)
+- Namecheap Domain / Hosting
+- WordPress (s2Member plugin)
 - https
-- computers
-- typing
-- internet
 
 TODO: Other things
 4.2 Software Documentation

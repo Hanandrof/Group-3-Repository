@@ -61,12 +61,10 @@ section change as well. Here it has been decreed.
 
 Project Organization
 ----------------------------------------------------------------------
-2.1 Process Model
-Relationships among project elements
-2.2 Organizational Structure
-Internal management, organization chart
+2.1 Organizational Structure
+Refer to Organiztional Structure.png
 
-2.3 Organizational Interfaces
+2.2 Organizational Interfaces
 - Relationship to Hosting Service
 Our project is not of a controversial nature, so as long as we keep paying
 them to host a site, they will probably do it.
@@ -81,55 +79,44 @@ be fine.
 Mostly fictitious.
 
 2.4 Project Responsibilities
-Provide an educational service on health and fitness
-(nature)
-Strive to spread awareness through social media
-(nature)
-Support industry experts and local facilities
-(nature)
-To Design The Website Accessibly For All Users
+Frontend and backend development will be lead by Akeem, Alex, and Jackson. This includes the creation of pages through WordPress, database design and implementation, and other development and plugins.
 
-To Handle User Data Securely and Covertly
+Game development and design will be headed by Stanley. The game will be preceded by a lesson and quiz to drive home the educational benefits of it.
 
-Matrix of project functions/activities vs responsible individuals
+Project documentation will be written and updated by Brandon.
 
 
 Managerial Process
 ---------------------------------------------------------------------------------------------------------------------
 3.1 Management Objectives and Priorities
 -Management philosophy
-team discussion needed
+The team will be segmented into project responsililites as outlined in 2.4
 -Priorities among requirements
-Prioritize first the website's function, then its form.
+Prioritize first the website's function, then its form. This means the website pages should be functional before we make them pretty and the game should have a playable state implemented into the site first before worrying too much about aesthetics.
 To display website function, the creation of a working lesson prototype should be prioritized.
 -Schedule
-Work acording to the Gantt
+Work acording to the Gantt. Gantt will be updated to reflect project changes
 -Budget
 Operating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
 
 3.2 Assumptions, Dependencies and Constraints
 -External events the project depends on
-can't think on any
-We are able to get a hosting service (should be easy as one would expect).
-We are able to implement the system
-The continuation of the universe, planet, and the concept of existence.
+We were able to get a hosting service and domain name. Our site is dependent on the hosting service continuing to function.
+We are able to implement the google maps API sufficiently.
+
 -Constraints under which the project is to be conducted
-Biggest contraint is time
+Biggest contraint is time, the deadline cannot be changed. Requirements cannot be cut, but superflous details may be removed so we can meet the deadline.
 
 3.3 Risk Management
-Identification and assessment of risk factors, mechanism for tracking risks, implementation of contingency plans
+Project Scope - There are some aspects of the site that may prove too large in scope to complete in a timely fashion.
+These elements can be reduced or eliminated as needed as long as we continue to ensure the requirements are met.
 
-Size of the project
-What do you do if you feel project is too large?
+Client acceptance - To avoid a rejection late into development, we plan to meet frequently with the client and keep them up to date and on board with all major project details.
+This should alleviate the concern of their acceptance as they will not be in the dark about anything. If there are objections they can be accounted for and implemented quickly.
 
-Complexity of the project
-What do you do if the requirements are multiplying during analysis? (requirements creep)
 
-Client acceptance
-What do you do if client does not like developed prototype?
-
-3.5 Monitoring and Controlling Mechanisms
-Frequency and mechanisms for reporting
+3.4 Monitoring and Controlling Mechanisms
+Project management will monitor progress on a weekly basis, this role should fall to Brandon as documentation leader.
 
 
 Technical Process
@@ -144,15 +131,16 @@ Specify the  methods, tools and techniques to be used on the project
 - WordPress (s2Member plugin)
 - https
 
-TODO: Other things
 4.2 Software Documentation
-Documentation will be contained within site code and within the repository 
+Documentation will be contained within site code and within the repository. Brandon will lead the documentation of updates and new additions.
+
 4.3 Project Support Functions
-Plans for (at least) the following project support functions. 
-Plan to ensure quality assurance
-Configuration management plan (IEEE Std 1042)
-Verification and validation  plan 
-The plans can be included in this section or there is a reference to a separate document
+Plan to ensure quality assurance - Documentation lead's weekly reviews will function as mini-QA sessions.
+Proper documentation will be in the code structure and carried out on the GitHub here. 
+Functional baselines (WordPress pages, JS base) shouldn't be changed without formal consideration.
+Development will have achange control process, changes will be brought to the group to deliberate and approve based on merit and minimal risk. 
+A record of all changes made will be kept within this document and on other documents as needed.
+Previous version backups will be kept for testing purposes.
 
 Description of Work Packages
 ------------------------------------------------------------------

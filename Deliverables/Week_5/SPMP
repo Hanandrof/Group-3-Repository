@@ -42,10 +42,10 @@ support their own physical education training.
 * ETA: 4/4 | Status: In Progress *
 
 - Database/JS Working
-* ETA: 4/16 | Status: Starting *
+* ETA: 4/16 | Status: In Progress *
 
 - APIs Installed and Functioning
-* ETA: 4/20 | Status: Not Started *
+* ETA: 4/20 | Status: In Progress *
 
 - Implemented System Completed Website
 * Deadline: 4/24 | Status: In Progress *
@@ -128,6 +128,7 @@ Specify the  methods, tools and techniques to be used on the project
 - HTML/CSS/Javascript
 - monday.com --- to manage tasks inside the group
 - Namecheap Domain / Hosting
+-cPanel --- website and server management
 - WordPress (s2Member plugin)
 - https
 

@@ -35,17 +35,17 @@ support their own physical education training.
 * Deadline: 2/21 | Status: Complete *
 
 - Software Project Management Proposal, GANTT Chart Schedule, 
-  Work Breakdown Structure, Organization Structure
+  Work Breakdown Structure, Organization Structure (Outline)
 * Deadline: 3/2 | Status: Complete *
 
-- HTML/CSS Pages
+- (HTML/CSS)/Design & Creation
 * ETA: 4/4 | Status: In Progress *
 
 - Database/JS Working
 * ETA: 4/16 | Status: In Progress *
 
 - APIs Installed and Functioning
-* ETA: 4/20 | Status: In Progress *
+* ETA: 4/20 | Status: Complete *
 
 - Implemented System Completed Website
 * Deadline: 4/24 | Status: In Progress *
@@ -61,22 +61,33 @@ section change as well. Here it has been decreed.
 
 Project Organization
 ----------------------------------------------------------------------
-2.1 Organizational Structure
+2.1 Process Model
+The website will be hosted by namecheap which will also host Wordpress. The domain and SSL certificate was purchased and applied via namecheap. We will build the website via Wordpress and host the game using a Code Snippets plugin that allows javascript code. {fill out more}
+
+2.2 Organizational Structure
 Refer to Organiztional Structure.png
 
-2.2 Organizational Interfaces
+2.3 Organizational Interfaces
 - Relationship to Hosting Service
 Our project is not of a controversial nature, so as long as we keep paying
 them to host a site, they will probably do it.
-- Relationship to Schools
-Access to this system is purchased annually on a school-wide basis. They are
-the customers, even though they are not necessarily the consumers.
-- Relationship to Upstream Frameworks
+- Relationship to WordPress
 What licenses do they use? Generally, most upstream frameworks use open-source
 licenses, so as long as we're not using Adobe Flash in 2021, we should
 be fine.
-- Relationship to US Dep't. of Education
-Mostly fictitious.
+- Relationship to WordPress Plugins
+We use multiple wordpress plugins in order to make a functioning website. We have included a list of plugins below
+  - Paid Memberships Pro
+  - Buddy Press
+  - Buddy Press Group Restricter
+  - Code Snippets
+  - Other Things
+  - WP Store Locator
+  
+- Relationship to Paypal
+Used for getting payments from users, only implemented via sandbox mode.
+- Relationship to Google Maps
+Used for locating gyms in an area.
 
 2.4 Project Responsibilities
 Frontend and backend development will be lead by Akeem, Alex, and Jackson. This includes the creation of pages through WordPress, database design and implementation, and other development and plugins.
@@ -114,9 +125,13 @@ These elements can be reduced or eliminated as needed as long as we continue to 
 Client acceptance - To avoid a rejection late into development, we plan to meet frequently with the client and keep them up to date and on board with all major project details.
 This should alleviate the concern of their acceptance as they will not be in the dark about anything. If there are objections they can be accounted for and implemented quickly.
 
+Plugin Conflict - some plugins may interact poorly with eachother and this imposes risk on getting the project done in a timely fashion.
+
+Website Crash - some code may cause the website to crash and this will be mitigated by automatic backups.
+
 
 3.4 Monitoring and Controlling Mechanisms
-Project management will monitor progress on a weekly basis, this role should fall to Brandon as documentation leader.
+Project management will monitor progress on a weekly basis, this role should fall to Brandon as documentation leader. 
 
 
 Technical Process
@@ -129,8 +144,9 @@ Specify the  methods, tools and techniques to be used on the project
 - monday.com --- to manage tasks inside the group
 - Namecheap Domain / Hosting
 -cPanel --- website and server management
-- WordPress (s2Member plugin)
-- https
+- WordPress (buddypress)
+  - Insert Plugins Here
+- https (SSL Certificate)
 
 4.2 Software Documentation
 Documentation will be contained within site code and within the repository. Brandon will lead the documentation of updates and new additions.

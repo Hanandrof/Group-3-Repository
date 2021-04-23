@@ -11,11 +11,10 @@ Introduction
 -------------------------------------------------------------------
 1.1 Project Overview
 This project is a web-based educational environment on the topics of fitness and wellness, 
-as solicited by the United States Department of Education. While it is purchased on a 
-school-wide basis, the platform's main demographic 
+as solicited by the United States Department of Education. The platform's main demographic 
 will mainly be young athletes and their parents, who for it has been determined that they 
 are lacking in knowledge on the practice of proper nutrition and fitness routines to
-support their own physical education training.
+support their own physical education training. This website will have different accounts that can be purchased.
 
 1.2 Project Deliverables
 - Use Cases for each participant in the system, including:
@@ -43,6 +42,7 @@ support their own physical education training.
 
 - Database/JS Working
 * ETA: 4/16 | Status: In Progress *
+    - Final Meeting at 12 pm 4/25/21
 
 - APIs Installed and Functioning
 * ETA: 4/20 | Status: Complete *
@@ -70,7 +70,7 @@ Refer to Organiztional Structure.png
 2.3 Organizational Interfaces
 - Relationship to Hosting Service
 Our project is not of a controversial nature, so as long as we keep paying
-them to host a site, they will probably do it.
+them to host a site, they will do it.
 - Relationship to WordPress
 What licenses do they use? Generally, most upstream frameworks use open-source
 licenses, so as long as we're not using Adobe Flash in 2021, we should
@@ -105,18 +105,21 @@ The team will be segmented into project responsililites as outlined in 2.4
 -Priorities among requirements
 Prioritize first the website's function, then its form. This means the website pages should be functional before we make them pretty and the game should have a playable state implemented into the site first before worrying too much about aesthetics.
 To display website function, the creation of a working lesson prototype should be prioritized.
+
 -Schedule
 Work acording to the Gantt. Gantt will be updated to reflect project changes
 -Budget
 Operating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
 
 3.2 Assumptions, Dependencies and Constraints
+
 -External events the project depends on
 We were able to get a hosting service and domain name. Our site is dependent on the hosting service continuing to function.
-We are able to implement the google maps API sufficiently.
 
 -Constraints under which the project is to be conducted
 Biggest contraint is time, the deadline cannot be changed. Requirements cannot be cut, but superflous details may be removed so we can meet the deadline.
+
+We are able to implement the google maps API sufficiently, currently using credit from Jackson a.k.a  the website is constrained to the amount of credit Jackson has.
 
 3.3 Risk Management
 Project Scope - There are some aspects of the site that may prove too large in scope to complete in a timely fashion.
@@ -129,6 +132,7 @@ Plugin Conflict - some plugins may interact poorly with eachother and this impos
 
 Website Crash - some code may cause the website to crash and this will be mitigated by automatic backups.
 
+Malicious Attack - this project is using Loginizer from Wordpress to help prevent these kinds of attacks and to maintain security. There is a malware scanner built in with the host (i.e. namecheap).
 
 3.4 Monitoring and Controlling Mechanisms
 Project management will monitor progress on a weekly basis, this role should fall to Brandon as documentation leader. 

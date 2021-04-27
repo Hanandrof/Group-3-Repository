@@ -41,3 +41,5 @@ April 26th
   - Alex updated priorities among requirements
   - Alex updated reference to outside charts
     
+April 27th
+  - Alex added revision sheet reference

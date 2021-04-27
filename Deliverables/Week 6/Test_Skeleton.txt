@@ -33,8 +33,20 @@ Unit Tests
 -------------------------------------------------------------------
   Map
 ------------------------------------------------------------------- 
+  1. Check to make sure Map is accessible to the right users and only them
+    a. Use a non-account to make sure non-account can not see the Map
+    b. Use Expert account to make sure Experts can view the Map
+    c. Use Parent account to make sure Parents can view the Map 
+    d. Use Student account to make sure Students can view the Map
+  2. Test location functionality
+    a. Test that page automatically asks for your location when navigating to the page for the first time (Use a browser with cleaned cookies or incognito)
+    b. Test that entering 5 different US ZIP codes works correctly in the map
+    3. Test that the filter function works 
+    a. Check the Gym box and enter your zip code, confirm the map only returns Gyms
+    b. Check the Park box and enter your zip code, confirm the map only returns Parks 
+  4. Make sure bounce on hover works
+    a. Hover over a location on the left and make sure the corresponding pin is bouncing 
 
-<Leave for Jackson>
 
 -------------------------------------------------------------------
   Login Process
@@ -72,7 +84,12 @@ Reasoning: We want to test the overall site and see how everything works togethe
 -------------------------------------------------------------------
   Map
 -------------------------------------------------------------------
-<Leaving for Jackson>
+  1. Make sure that after any change to the map plugin it is still only viewable to users only
+    a. Use a non-account to make sure non-account can not see the Map
+    b. Use Expert account to make sure Experts can view the Map
+    c. Use Parent account to make sure Parents can view the Map 
+    d. Use Student account to make sure Students can view the Map
+
 -------------------------------------------------------------------
   Blog
 -------------------------------------------------------------------

@@ -1,0 +1,43 @@
+February 28th
+  - Created the SPMP
+  - Stanley added sections 1.1 through 1.5
+  - Stanley added sections 2.1-2.4
+  - Akeem added to project responsibilities
+  - Akeem added sections 3.1-5.0
+  - Akeem built template for SPMP
+
+March 1st
+  - Stanley added due dates to SPMP
+  - Stanley added progress counter to due dates in SPMP
+  - Filled out organizational interfaces
+  
+March 8th
+  - Stanley added technologies used in 4.1
+  - Akeem added reference to Gantt chart
+  
+March 9th
+  - Akeem restructured schedule/fixed dates
+  
+March 30th
+  - Akeem restructured schedule/fixed dates
+  - Akeem adjusted progress of work
+  - Akeem deleted tools no longer being used and added new tools
+  - Akeem added dependencies/project responsibilities
+  - rewrote project support functions
+  
+April 13th  
+  - Brandon adjusted progress of work
+  - Alex reworked Organizational interfaces
+  - Alex added risk management
+  - Alex added to technical process
+    
+April 23rd
+  - Alex adjusted dates
+  - Alex fixed typos
+
+April 26th
+  - Alex updated dates
+  - Alex updated plugin list
+  - Alex updated priorities among requirements
+  - Alex updated reference to outside charts
+    

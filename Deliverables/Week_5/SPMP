@@ -39,6 +39,7 @@ support their own physical education training. This website will have different 
 
 - (HTML/CSS)/Design & Creation
 * ETA: 4/4 | Status: In Progress *
+    - Still in progress (GAME needs work)
 
 - Database/JS Working
 * ETA: 4/16 | Status: In Progress *
@@ -48,11 +49,13 @@ support their own physical education training. This website will have different 
 * ETA: 4/20 | Status: Complete *
 
 - Implemented System Completed Website
-* Deadline: 4/24 | Status: In Progress *
+* Deadline: 5/17 | Status: In Progress *
 
 1.3 Evolution of the SPMP
 As the Gantt timeline continues to change, so will the timeline
-section change as well. Here it has been decreed.
+section change as well. This has been managed by Brandon as he 
+updated the Gantt chart to reflect the current state of our project.
+  
 
 1.4 Reference Materials
 "Work Breakdown Structure.png"
@@ -62,10 +65,14 @@ section change as well. Here it has been decreed.
 Project Organization
 ----------------------------------------------------------------------
 2.1 Process Model
-The website will be hosted by namecheap which will also host Wordpress. The domain and SSL certificate was purchased and applied via namecheap. We will build the website via Wordpress and host the game using a Code Snippets plugin that allows javascript code. {fill out more}
+The website will be hosted by namecheap which will also host Wordpress. 
+The domain and SSL certificate was purchased and applied via namecheap. 
+We will build the website via Wordpress and host the game using an iFrame plugin that allows to access other sites within a webpage. We will use Buddypress, which interacts with "BuddyPress Restrict Group Creation" to restrict (not at the moment) group creation among roles. Code Snippets is used within Wordpress to give more forms to the login process and store these forms in the database. Loginizer helps protect security on WordPress. Paid Memberships Pro works with loginizer and gives subscription levels/payment process. Social Snap Lite lets us talk to Twitter/Facebook. User Menus/Role Editor provide a user experience for users of the site. The Store Locator helps the Map function for the site and works alongside the Google Maps API.
+
 
 2.2 Organizational Structure
-Refer to Organiztional Structure.png
+Refer to https://github.com/Hanandrof/Group-3-Repository/blob/main/Deliverables/Week_4/High_Level_Architecture.png
+This shows the high level architecture of the given website. This website will be built using namecheap/wordpress and available wordpress plugins. We will interact with the WP databases in order to build our game and tailor it to the individual user.
 
 2.3 Organizational Interfaces
 - Relationship to Hosting Service
@@ -79,15 +86,26 @@ be fine.
 We use multiple wordpress plugins in order to make a functioning website. We have included a list of plugins below
   - Paid Memberships Pro
   - Buddy Press
-  - Buddy Press Group Restricter
+  - Buddy Press Restrict Group Creation
   - Code Snippets
-  - Other Things
+  - iframe
+  - Loginizer
+  - LoginPress - Customizing the WordPress Login
+  - Paid Memberships Pro
+  - Paid Memberships Pro - BuddyPress Add on
+  - Paid Memberships Pro - Register Helper Add on
+  - Paid Memberships Pro - Require Strong Password 
+  - Simple Iframe
+  - Social Snap Lite
+  - Templates Patterns Collection
+  - User Menus
+  - User Role Editor
   - WP Store Locator
   
 - Relationship to Paypal
-Used for getting payments from users, only implemented via sandbox mode.
+Used for getting payments from users, only implemented via sandbox mode. Implemented on WP via Paid Memberships Pro.
 - Relationship to Google Maps
-Used for locating gyms in an area.
+Used for locating gyms in an area. Implemented on WP via WP Store Locator.
 
 2.4 Project Responsibilities
 Frontend and backend development will be lead by Akeem, Alex, and Jackson. This includes the creation of pages through WordPress, database design and implementation, and other development and plugins.
@@ -96,20 +114,39 @@ Game development and design will be headed by Stanley. The game will be preceded
 
 Project documentation will be written and updated by Brandon.
 
-
 Managerial Process
 ---------------------------------------------------------------------------------------------------------------------
 3.1 Management Objectives and Priorities
 -Management philosophy
-The team will be segmented into project responsililites as outlined in 2.4
+The team will be segmented into project responsililites as outlined in 2.4. Our management is split up between project teams, when we have class we have weekly management meetings discussing what work has been done and what work needs to be done; after that, we adjust the goal posts to our capabilities. 
+
 -Priorities among requirements
+
+  -	Utilization of social media to promote and increase awareness and usage.
+    -Low Priority: Not needed to make the site function as a whole, but provides much needed advertisement.
+
+  -	Be secure. Provide all functionality without ever leaving the domain.
+    -Medium Priority: Some stuff may need to leave domain (social media), however most can stay in domain.
+
+  -	Provide a way to search for local fitness facilities. 
+    -High Priority: One of the main functions of the site.
+
+  -	Allow parent/guardians to get a subscription for their child/children.
+    -Low Priority: If we can get more money
+
+  -	Allow high school athletic coaches and officials to view athletes participating in their program.
+    - High Priority: This is a core of the website
+
+  -	Allow fitness, health and nutrition experts the ability to register their services.
+    - High Priority: Need to be on the activity Page
+
 Prioritize first the website's function, then its form. This means the website pages should be functional before we make them pretty and the game should have a playable state implemented into the site first before worrying too much about aesthetics.
 To display website function, the creation of a working lesson prototype should be prioritized.
 
 -Schedule
 Work acording to the Gantt. Gantt will be updated to reflect project changes
 -Budget
-Operating under a 'broke college student' budget. Costs should be kept as close to zero as possible.
+Operating under a 'broke college student' budget. Costs should be kept as close to zero as possible. This was not met.
 
 3.2 Assumptions, Dependencies and Constraints
 
@@ -119,7 +156,7 @@ We were able to get a hosting service and domain name. Our site is dependent on 
 -Constraints under which the project is to be conducted
 Biggest contraint is time, the deadline cannot be changed. Requirements cannot be cut, but superflous details may be removed so we can meet the deadline.
 
-We are able to implement the google maps API sufficiently, currently using credit from Jackson a.k.a  the website is constrained to the amount of credit Jackson has.
+We are able to implement the Google Maps API sufficiently, currently using credit from Jackson a.k.a  the website is constrained to the amount of credit Jackson has.
 
 3.3 Risk Management
 Project Scope - There are some aspects of the site that may prove too large in scope to complete in a timely fashion.
@@ -128,7 +165,7 @@ These elements can be reduced or eliminated as needed as long as we continue to 
 Client acceptance - To avoid a rejection late into development, we plan to meet frequently with the client and keep them up to date and on board with all major project details.
 This should alleviate the concern of their acceptance as they will not be in the dark about anything. If there are objections they can be accounted for and implemented quickly.
 
-Plugin Conflict - some plugins may interact poorly with eachother and this imposes risk on getting the project done in a timely fashion.
+Plugin Conflict - some plugins may interact poorly with eachother and this imposes risk on getting the project done in a timely fashion. This has been seen best from BuddyPress conflicting with the login process, we have worked through documentation to try to mitigate said problem.
 
 Website Crash - some code may cause the website to crash and this will be mitigated by automatic backups.
 
@@ -136,6 +173,7 @@ Malicious Attack - this project is using Loginizer from Wordpress to help preven
 
 3.4 Monitoring and Controlling Mechanisms
 Project management will monitor progress on a weekly basis, this role should fall to Brandon as documentation leader. 
+This will be done inside the Gantt chart, the SPMP. We will alert members of our team to get work done and to update on work via Discord.
 
 
 Technical Process
@@ -145,11 +183,26 @@ Specify the  methods, tools and techniques to be used on the project
 - Git
 - Agile
 - HTML/CSS/Javascript
-- monday.com --- to manage tasks inside the group
 - Namecheap Domain / Hosting
 -cPanel --- website and server management
-- WordPress (buddypress)
-  - Insert Plugins Here
+- WordPress
+  - Paid Memberships Pro
+  - Buddy Press
+  - Buddy Press Restrict Group Creation
+  - Code Snippets
+  - iframe
+  - Loginizer
+  - LoginPress - Customizing the WordPress Login
+  - Paid Memberships Pro
+  - Paid Memberships Pro - BuddyPress Add on
+  - Paid Memberships Pro - Register Helper Add on
+  - Paid Memberships Pro - Require Strong Password 
+  - Simple Iframe
+  - Social Snap Lite
+  - Templates Patterns Collection
+  - User Menus
+  - User Role Editor
+  - WP Store Locator
 - https (SSL Certificate)
 
 4.2 Software Documentation
@@ -157,7 +210,7 @@ Documentation will be contained within site code and within the repository. Bran
 
 4.3 Project Support Functions
 Plan to ensure quality assurance - Documentation lead's weekly reviews will function as mini-QA sessions.
-Proper documentation will be in the code structure and carried out on the GitHub here. 
+Proper documentation will be in the code structure and carried out on the GitHub here. There will also be a documentation folder for the clients in the head of the repository.
 Functional baselines (WordPress pages, JS base) shouldn't be changed without formal consideration.
 Development will have achange control process, changes will be brought to the group to deliberate and approve based on merit and minimal risk. 
 A record of all changes made will be kept within this document and on other documents as needed.
@@ -166,6 +219,10 @@ Previous version backups will be kept for testing purposes.
 Description of Work Packages
 ------------------------------------------------------------------
 Include Work Breakdown Structure (WBS) here
+https://github.com/Hanandrof/Group-3-Repository/blob/updateSPMP/Deliverables/Week_5/Work%20Breakdown%20Structure.png
 Hierarchical decomposition of project into activities and tasks
 
-Dependencies between tasks
+Gantt Chart
+https://github.com/Hanandrof/Group-3-Repository/blob/updateSPMP/Deliverables/Week_5/Gnatt.png
+Our process for completion of project.
+

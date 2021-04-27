@@ -8,9 +8,23 @@ Integration Testing
   Overall Site
 -------------------------------------------------------------------
   1. Make sure website is displaying properly on all devices
+    a. This is done by going to the website in multiple browsers and by going to the website on multiple devices (i.e. mobile, small desktop, large screens).
+  2. Test the login process. 
+    a. See if you can login to the website using credentials
+    b. See if when you create a new account if you are prompted to pay for your account via paypal.
+    c. Make sure that the roles assigned to each account are the actual roles that were chosen by each account (seen in admin screen)
+  3. Make sure new Plugins (Paid Membership Pro - Strong Password) do not mess with the current format of the site
+    a. Add new plugins to the plugins that accept plugins (Buddy Press/paid memberships pro), make sure website doesn't break
+      i. By make sure website does not break, check to make sure the integration of the plugins from the user level has not changed
 
   Game
 -------------------------------------------------------------------
+  1. Test if you can pull and push from the WP-User database
+    a. This is done by pulling from the WP-User database and pushing to the game database.
+      i. can be tested by completing a level and signing in from another computer to view if your data is still there
+  2. Test if you can save your data
+    a. Redo above test
+
   Map
 -------------------------------------------------------------------
 

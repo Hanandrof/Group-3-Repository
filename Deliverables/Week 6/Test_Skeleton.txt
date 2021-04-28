@@ -153,3 +153,55 @@ Example:
 -------------------------------------------------------------------
   1. Check to make sure if they can login to Game page
   2. Check to make sure if the game page creates new user data or pulls from changed user data.
+
+
+
+
+
+System Test Procedure
+-------------------------------------------------------------------
+  Responsiveness and Cover Pages
+-------------------------------------------------------------------
+  01. Go to group3fit50.website
+  02. Change the windowsize to look at the responsiveness
+  03. Click the about page and repeat step 2
+-------------------------------------------------------------------
+  Map Page
+-------------------------------------------------------------------
+  04. Click the map page and repeat step 2
+  05. input your zip code into the your location
+    - View the corresponding location
+-------------------------------------------------------------------
+  Login Process
+-------------------------------------------------------------------
+  06. Click the login page (then click Join Now)
+  07. Create a student account
+  08. Log out and click Log In then click "Lost Password?"
+  09. Enter your username
+  10. Confirm you got the "Reset Password" email in your designated Email mailbox
+-------------------------------------------------------------------
+  Blog
+-------------------------------------------------------------------
+  11. Log back in and move to the Blog Page
+  12. View the activity page and see if you can see blog data from people
+  13. Log out, and create a coach account like you did in step 7
+  14. Go to group page and click create a new group
+  15. Fill out the form to create a new group
+  16. On the final page of creating a group add your student account
+  17. Post in your group, just a general message
+  18. Log out and relogin as a student and navigate to group page
+  19. View the message that you made with your Coach account
+  20. Create a message on the group board
+  21. Log back in to coach account and navigate to your group (in the groups tab you should be able to see the group you created)
+  22. Delete your previous post from the student account
+  23. Log out and log back in with student account
+-------------------------------------------------------------------
+  Game
+-------------------------------------------------------------------
+  24. Navigate to game tab
+  25. Play Stanleys Game (open levels, fill out forms) 
+    - Read words and click corresponding buttons
+    - Get your score
+    - Good job champ!
+  26. Log out
+  
